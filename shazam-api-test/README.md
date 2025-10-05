@@ -55,7 +55,7 @@ shazam-api-test
 
 ## 📦 Instalación y Ejecución Local
 1️⃣ Clonar el repositorio
-git clone https://github.com/1juanda/shazam-api-test.git
+git clone https://github.com/1juanda/prueba-tecnica-qa-rappipay.git
 cd shazam-api-test
 
 2️⃣ Instalar dependencias
