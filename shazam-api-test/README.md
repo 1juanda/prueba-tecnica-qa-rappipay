@@ -13,7 +13,7 @@ El objetivo principal es ofrecer una base sólida, escalable y mantenible para l
 
 La estructura del proyecto sigue el estándar Serenity Screenplay Pattern, dividiendo responsabilidades claramente:
 
-
+```
 shazam-api-test
 │
 ├── src/main/java/com/rappipay/api
@@ -34,7 +34,7 @@ shazam-api-test
 ├── Dockerfile                 # Imagen Docker lista para ejecución en Jenkins
 ├── serenity.properties        # Configuración Serenity
 └── README.md
-
+```
 
 
 
