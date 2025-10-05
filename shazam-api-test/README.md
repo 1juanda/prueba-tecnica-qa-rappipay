@@ -1,5 +1,5 @@
 
-# 🎧 Shazam API Test – Serenity BDD + Screenplay + Cucumber + RestAssured
+# 🎧 Shazam API Test 
 
 ## 🧩 Descripción del Proyecto
 
