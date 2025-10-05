@@ -131,18 +131,6 @@ Usar Hooks para inicialización de actores y configuración base.
 Centralizar endpoints y cabeceras en clases utilitarias (ApiConstants, ApiHeaders).
 Evitar duplicación de código usando reutilización de Tasks y Questions.
 
-## 🗂️ Dependencias Clave (pom.xml)
-
-serenity-core
-
-serenity-screenplay
-
-serenity-screenplay-rest
-
-serenity-cucumber
-
-json-path
-
 ## 📊 Reporte de Resultados
 
 Serenity genera automáticamente un reporte HTML completo con:
