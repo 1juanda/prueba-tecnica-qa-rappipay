@@ -60,11 +60,11 @@ cd shazam-api-test
 
 2️⃣ Instalar dependencias
 
-mvn clean install -DskipTests
+```mvn clean install -DskipTests```
 
 3️⃣ Ejecutar pruebas con tag específico
 
-mvn clean verify -Dtags="@song"
+```mvn clean verify -Dtags="@song"```
 
 
 4️⃣ Generar y visualizar reporte Serenity
@@ -76,16 +76,17 @@ target/site/serenity/index.html
 ## 🐳 Ejecución con Docker
 
 1️⃣ Construir la imagen
-docker build -t serenity-jenkins-tests .
+```docker build -t serenity-jenkins-tests .```
 
 2️⃣ Ejecutar el contenedor
-docker run --rm serenity-jenkins-tests
+```docker run --rm serenity-jenkins-tests```
 
 Esto ejecutará automáticamente los escenarios definidos con el tag @song.
 
 ## ⚙️ Integración con Jenkins
 
 El proyecto está diseñado para ejecutarse dentro de Jenkins usando la imagen oficial con JDK 11.
+
 El Dockerfile instala Maven y Git, copia el código al contenedor y ejecuta las pruebas automáticamente.
 
 ## 🧠 Aplicación de Principios SOLID
