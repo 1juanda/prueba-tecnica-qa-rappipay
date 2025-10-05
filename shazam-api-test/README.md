@@ -112,27 +112,42 @@ Dependency Inversion	El framework Serenity maneja la inversión de dependencias,
 
 Patrón Screenplay:
 Se eligió para mejorar la legibilidad, mantenibilidad y reutilización del código.
+
 Los actores (Actor) ejecutan tareas (Tasks) y formulan preguntas (Questions).
 
 Separación de responsabilidades:
+
 tasks: encapsulan las llamadas HTTP.
+
 questions: validan las respuestas.
+
 stepdefinitions: traducen los pasos BDD a acciones del actor.
+
 utils: centraliza configuraciones y cabeceras comunes.
 
+
 Uso de Serenity Screenplay Rest:
+
 Permite integrar RestAssured de forma fluida con Screenplay.
 
+
 Integración continua:
+
 El uso de Docker y Jenkins asegura un entorno reproducible y portable.
+
 
 ## 💡 Buenas Prácticas
 
 Aplicar nombres semánticos en los Tasks y Questions.
+
 Mantener independencia entre escenarios.
+
 Usar Hooks para inicialización de actores y configuración base.
+
 Centralizar endpoints y cabeceras en clases utilitarias (ApiConstants, ApiHeaders).
+
 Evitar duplicación de código usando reutilización de Tasks y Questions.
+
 
 ## 📊 Reporte de Resultados
 
