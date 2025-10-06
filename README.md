@@ -1,6 +1,6 @@
 Prueba Técnica QA – RappiPay
 
-Este repositorio contiene el desarrollo de la prueba técnica, dividido en dos partes principales:
+Este repositorio contiene el desarrollo de la prueba técnica, dividido en tres partes principales:
 
 📂 Estructura del proyecto
 
